@@ -1,0 +1,155 @@
+.trip-details-page {
+  padding: 10px 0;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #3498db;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.details-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.details-flag {
+  width: 65px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.details-title h1 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.details-subtitle {
+  font-size: 14px;
+  color: #888;
+}
+
+.details-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.saved-message {
+  color: #27ae60;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.save-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.save-btn:hover {
+  background-color: #219a52;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 35px;
+}
+
+@media (max-width: 700px) {
+  .details-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-label {
+  font-size: 14px;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.loading {
+  color: #aaa;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.error-msg {
+  color: #e74c3c;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #fdecea;
+  border-radius: 8px;
+}
+
+/* attractions */
+.attractions-section h2 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 6px;
+}
+
+.attractions-note {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.attractions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.attraction-card {
+  padding: 18px;
+}
+
+.attraction-type {
+  font-size: 12px;
+  color: #3498db;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.attraction-card h4 {
+  font-size: 15px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.attraction-rating {
+  font-size: 13px;
+  color: #f39c12;
+  font-weight: bold;
+}

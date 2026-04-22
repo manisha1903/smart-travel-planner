@@ -1,0 +1,83 @@
+.my-trips-page {
+  padding: 10px 0;
+}
+
+.my-trips-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.my-trips-header h1 {
+  font-size: 26px;
+  color: #2c3e50;
+}
+
+.add-trip-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add-trip-btn:hover {
+  background-color: #2980b9;
+}
+
+.trips-count {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 18px;
+}
+
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+/* no trips empty state */
+.no-trips {
+  text-align: center;
+  padding: 70px 20px;
+  background: white;
+  border-radius: 12px;
+  border: 2px dashed #ddd;
+}
+
+.no-trips-emoji {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.no-trips h3 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.no-trips p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 22px;
+}
+
+.go-search-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 11px 24px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.go-search-btn:hover {
+  background-color: #2980b9;
+}
