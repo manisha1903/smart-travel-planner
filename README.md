@@ -53,22 +53,22 @@ npm start
 ```
 src/
   components/
-    Navbar.js         - top navigation bar
-    WeatherCard.js    - shows weather info
-    CountryCard.js    - shows country details
-    TripCard.js       - card for each saved trip
+    Navbar.jsx         - top navigation bar
+    WeatherCard.jsx    - shows weather info
+    CountryCard.jsx    - shows country details
+    TripCard.jsx       - card for each saved trip
   hooks/
     useDebounce.js    - delays input so we dont spam API calls
     useFetch.js       - reusable hook for fetching data
   pages/
-    Home.js           - landing page with search and popular places
-    SearchResults.js  - search results with weather and country info
-    TripDetails.js    - full details page for a destination
-    MyTrips.js        - shows all saved trips
-    Login.js          - login and signup page
-  App.js              - main app with routing setup
+    Home.jsx           - landing page with search and popular places
+    SearchResults.jsx  - search results with weather and country info
+    TripDetails.jsx    - full details page for a destination
+    MyTrips.jsx        - shows all saved trips
+    Login.jsx          - login and signup page
+  App.jsx              - main app with routing setup
   App.css             - global styles including dark mode
-  index.js            - entry point
+  main.jsx            - entry point
   index.css           - base reset styles
 ```
 
